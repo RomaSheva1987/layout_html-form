@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+    <h1></h1>
     <script type="text/javascript" src="./main.js"></script>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
@@ -45,10 +45,9 @@
         <label class="form-field">
           Full date of birth:
           <input
-          type="text"
+          type="date"
           name="date-of-birth"
-          placeholder="mm/dd/yyyy"
-          >
+           placeholder="mm/dd/yyyy">
         </label>
         <label class="form-field">
           I accept the term of the agreement
@@ -134,9 +133,9 @@
         </label>
       </fieldset>
       <fieldset class="form-group">
-        <legend>Additional info</legend>
+        <legend>Additional info:</legend>
         <label class="form-field">
-          Comments
+          Comments:
           <textarea
           name="comments"
           cols="20"
@@ -144,10 +143,10 @@
           ></textarea>
         </label>
         <label class="form-field">
-          Would you recommend as?
+          Would you recommend us?
           <select name="recommendation">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
           </select>
         </label>
       </fieldset>
